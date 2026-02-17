@@ -16,17 +16,12 @@ public class calculator {
         char operator = sc.next().charAt(0);
 
         switch (operator) {
-            case '+' : System.out.println(a+b+c);    
-                break;
-            case '-' : System.out.println(a-b-c);
-                break;
-            case '*' : System.out.println(a*b*c);
-                break;
-            case '/' : System.out.println(a/b/c);
-                break;
-            case '%' : System.out.println(a%b%c);
-                break;    
-            default: System.out.println("wrong operator");
+            case '+' -> System.out.println(a+b+c);
+            case '-' -> System.out.println(a-b-c);
+            case '*' -> System.out.println(a*b*c);
+            case '/' -> System.out.println(a/b/c);
+            case '%' -> System.out.println(a%b%c);
+            default -> System.out.println("wrong operator");
                 
         }
     }
